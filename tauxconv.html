@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+ <HTML>
+	  <HEAD> 
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	  <meta name="viewport" content="width=device-width, initial-scale=0.46">
+	  
+	   <title>Taux et conversion</title>
+	   <a href="index.html"><p7>⬅️</p7></a>
+	   
+	 
+
+
+	<style>
+	*{
+	text-align:center;
+	font-size:40px;
+	color:#fff;
+	background-color:gray;
+	}
+	
+	h1{
+	font-size:55px;
+	padding-left:50%px;
+	}
+	fieldset{
+
+	font-size:100px;
+	padding-left:4%;
+	}
+	p7{
+	margin-right:100%;
+	font-size:90px;
+	}
+	h2{
+	color:#fff;
+	}
+	legend{
+	color:#fff;
+	}
+	b{
+	font-size:30px;
+	color:teal;
+	}
+	input{
+	font-size:55px;
+	color:#fff;
+	border:solid;
+	}
+	p1 { color: red;
+	font-size:55px; }
+
+p2 { color: blue;
+font-size:55px; }
+
+p3 { color: rgb(255, 255, 255); 
+font-size:55px;}
+
+p4 { color: red; 
+font-size:55px;}
+p5{color:blue;
+font-size:55px;}
+a{color:blue;
+font-size:35px;}
+
+	     </style>
+	  <Script language='javascript'>
+	  alert("Les informations ne sont pas dynamique.")
+	   function ConvertirEndollars() { if (isNaN(Form1.BTC.value) == true) { alert('Conversion impossible.'); Form1.BTC.value = '1'; } else { Form1.USD.value = Form1.BTC.value * 19548.40 ; } } function ConvertirEnbitcoin() { if (isNaN(Form1.USD.value) == true) { alert(' Conversion Impossible.'); Form1.Francs.value = Form1.BTC.value * 6.55957 ; } else { Form1.BTC.value = Form1.USD.value / 21244.95 ; } } </Script>
+	    </HEAD> <BODY onLoad='ConvertirEndollars()'> <div id='bloc'> <h1> SIL <p1>H</p1><p2>a</p2><p3>ï</p3><p4>t</p4><p5>i</p5></h1> 	
+	 	
+	  <h2>Taux et convertisseur</h2>
+	   <br> <fieldset><legend>BTC⬅️➡️USD</legend><FORM Name='Form1' action='convertisseur.html'><b>BITCOINS</b><br /><input type='text' Name='BTC' onKeyUp='ConvertirEndollars()' Value='1'>
+	   <br />
+	   <p5>🔃</p5>
+	    <br /> 
+	    <b>DOLLARS</b><br /><input type ='text' Name='USD' onKeyUp='ConvertirEnbitcoin()'>
+	     </FORM> 
+	     <a href="Taux.html">conversion pro</a>
+	     </fieldset></div> </BODY> </HTML>
+
+	  
