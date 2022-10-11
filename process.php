@@ -15,7 +15,7 @@ if(isset($_POST['envoi']));
 		     $_SESSION['email']=$email;
 		     $_SESSION['password']=$password;
 		     
-		     header('Location: '.$uri.'/SIL Haiti/home');
+		     header('Location: '.$uri.'/home.html/');
          
 		}else{
 		     echo "Votre email ou mot de passe  est incorrect";
