@@ -8,7 +8,7 @@ $mdp=sha1($_POST['password']);
 $sql="INSERT INTO users(nom,prenom,email,password)VALUES('$nom','$prenom','$mail','$mdp')";
 $result=mysqli_query($connexion,$sql);
 if($result=="true"){
-  header('Location: '.$uri.'/SIL Haiti/connexion/');
+  header('Location: '.$uri.'/connexion.html/');
   }
   else{
     echo "impossible d'inscrire ";
